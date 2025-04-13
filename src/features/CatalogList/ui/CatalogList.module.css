@@ -1,4 +1,4 @@
-.products {
+.list {
     margin-top: 50px;
     display: flex;
     gap: 30px 10px;
@@ -12,7 +12,7 @@
 }
 
 @media (max-width:480px) {
-    .products {
+    .list {
         flex-direction: column;
     }
 }

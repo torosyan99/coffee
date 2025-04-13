@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "./Logo";
+import Logo from "@/shared/ui/Logo/Logo";
 import Container from "@/shared/ui/Container/Container";
 import Menu from "./Menu";
 import MenuButton from "./MenuButton";
@@ -11,13 +11,13 @@ const Header = () => {
 
   const handleClick = () => {
     setActiveMenu((b) => !b);
-    document.querySelector('.app').classList.toggle("overflow");
+    document.querySelector(".app").classList.toggle("overflow");
   };
   return (
     <header className={cls.header}>
       <Container className={cls.inner}>
-        <Logo />
-        <Menu  activeMenu={activeMenu}/>
+        <Logo className={cls.logo} />
+        <Menu activeMenu={activeMenu} />
         <MenuButton onClick={handleClick} activeMenu={activeMenu} />
       </Container>
     </header>

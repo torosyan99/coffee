@@ -3,7 +3,7 @@ import product from "../assets/product.png";
 import ValueBrackets from "@/shared/ui/ValueBrackets/ValueBrackets";
 import ButtonArrow from "@/shared/ui/ButtonArrow/ButtonArrow";
 
-import cls from "./ProductCard.module.css";
+import cls from "./CatalogCard.module.css";
 
 const Box = ({ num, location }) => {
   return (

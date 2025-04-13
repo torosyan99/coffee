@@ -1,14 +1,15 @@
 import React from "react";
 import ValueBrackets from "@/shared/ui/ValueBrackets/ValueBrackets";
 import { Link } from "react-router-dom";
+import { classNames } from "@/shared/lib/classNames/classNames";
 
 import cls from "./NewsCard.module.css";
 
 import image from "../assets/image.png";
 
-const NewsCard = () => {
+const NewsCard = ({ className }) => {
   return (
-    <li className={cls.card}>
+    <li className={classNames(cls.card, [className])}>
       <div className={cls.left}>
         <span className={cls.soon}>Cкоро!</span>
         <span className={cls.date}>21.04.2025</span>
@@ -20,8 +21,9 @@ const NewsCard = () => {
         </Link>
       </div>
       <div className={cls.right}>
-        <img className={cls.image} src={image} alt="image" />
+        <img className={cls.img} src={image} alt="image" />
       </div>
+      <span className={classNames(cls.date,[cls.date_bottom])}>21.04.2025</span>
     </li>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo";
+import Logo from "@/shared/ui/Logo/Logo";
 import Navigation from "./Navigation";
 import Bottom from "./Bottom";
 import Container from "@/shared/ui/Container/Container";
@@ -12,7 +12,7 @@ const Footer = () => {
       <Container className={cls.inner}>
         <div className={cls.content}>
           <div className={cls.left}>
-            <Logo />
+            <Logo className={cls.logo} />
             <p className={cls.text}>
               © Размещенная на сайте информация не является публичной офертой и
               носит информационный характер. Авторские права на размещенные

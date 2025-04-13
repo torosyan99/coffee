@@ -13,7 +13,7 @@ const MyForm = () => {
     <Formik initialValues={initialValues} validationSchema={SignupSchema}>
       {(options) => (
         <Form className={cls.form}>
-          <div className={cls.inputs}>
+          <div className={cls.items}>
             {itemsConfig.map((item) => (
               <FormItem key={item.name} {...item} options={options} />
             ))}

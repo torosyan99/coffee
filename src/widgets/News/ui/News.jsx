@@ -1,21 +1,27 @@
 import ButtonArrow from "@/shared/ui/ButtonArrow/ButtonArrow";
 import Title from "@/shared/ui/Title/Title";
 import Container from "@/shared/ui/Container/Container";
-import { NewsBlock } from "@/features/NewsBlock";
+import ValueBrackets from "@/shared/ui/ValueBrackets/ValueBrackets";
+import { NewsList } from "@/features/NewsList";
 
 import cls from "./News.module.css";
 
 const News = () => {
   return (
-    <div className={cls.news}>
+    <section className={cls.news}>
       <Container>
-        <Title title="НОВОСТИ И АКЦИИ" />
-        <NewsBlock />
+        <ValueBrackets forSectionTop={true}> Новости</ValueBrackets>
+        <div className={cls.top}>
+          <Title title="НОВОСТИ И АКЦИИ" />
+          <ValueBrackets>Сортировать</ValueBrackets>
+        </div>
+
+        <NewsList />
         <ButtonArrow className={cls.button} to="#">
           Показать больше
         </ButtonArrow>
       </Container>
-    </div>
+    </section>
   );
 };
 

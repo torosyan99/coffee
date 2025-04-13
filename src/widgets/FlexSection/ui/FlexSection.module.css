@@ -5,9 +5,23 @@
 .inner {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 0 10px;
+    gap: 10px;
 }
 
+
 .img {
+    width: 100%;
     height: 100%;
 }
+
+
+@media (max-width:900px) {
+    .inner {
+        grid-template-columns: 100%;
+    }
+
+    .picture {
+        grid-row: 2 / 3;
+    }
+}
+
