@@ -11,7 +11,7 @@ const Header = () => {
 
   const handleClick = () => {
     setActiveMenu((b) => !b);
-    document.body.classList.toggle("overflow");
+    document.querySelector('.app').classList.toggle("overflow");
   };
   return (
     <header className={cls.header}>

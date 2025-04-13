@@ -60,6 +60,7 @@
         pointer-events: none;
         transition: opacity .2s ease-in;
         padding: 20px 10px;
+        /* min-height: 100dvh; */
     }
 
     .menu.active {
@@ -71,6 +72,7 @@
         justify-content: flex-start;
         gap: 10px 0;
         overflow-y:  auto;
+        z-index: 100;
     }
 
     .button {
