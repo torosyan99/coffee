@@ -8,12 +8,13 @@ export default defineConfig((env) => {
 
   return {
     plugins: [react()],
+    base:"/coffee/",
     css: {
       modules: {
         generateScopedName:
           mode === "development"
             ? "[name]__[local]___[hash:base64:5]"
-            : "[hash:base64։8]",
+            : "[hash:base64:8]",
       },
     },
     server: {
