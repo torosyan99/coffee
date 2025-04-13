@@ -1,0 +1,38 @@
+.prices {
+    padding: 50px 0;
+    background: url(../assets/background.png) no-repeat center / cover;
+}
+
+.inner {
+    min-height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.box {
+    padding: 10px;
+    background-color: var(--white);
+    border-radius: 4px;
+    display: flex;
+    gap: 0 149px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    max-width: 171px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.button {
+    margin-top: auto;
+}
+
+.img {
+    border-radius: 4px;
+}

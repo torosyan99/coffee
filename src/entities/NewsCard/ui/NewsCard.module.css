@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    padding: 10px 0;
+    border-top: rgb(193, 193, 193, .30) 1px solid;
+}
+
+.card:last-child {
+    border-bottom: rgb(193, 193, 193, .30) 1px solid;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.desc {
+    margin-left: auto;
+}
+
+.right {
+    margin-left: 212px;
+}
+
+.date {
+    color: var(--gray-3)
+}
+
+.link {
+
+    margin-top: 10px;
+    display: inline-block;
+}

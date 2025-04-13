@@ -1,0 +1,28 @@
+.catalog {
+    padding: 11px 0 61px;
+}
+
+.top {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin: 100px auto 0;
+}
+
+
+@media (max-width:768px) {
+    .catalog {
+        padding-bottom: 30px;
+    }
+
+    .top {
+        text-align: start;
+    }
+
+    .button {
+        margin-top: 50px;
+    }
+}
