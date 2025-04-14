@@ -6,11 +6,13 @@ import { NewsList } from "@/features/NewsList";
 
 import cls from "./News.module.css";
 
-const News = () => {
+const News = ({ className, brackets = true }) => {
   return (
-    <section className={cls.news}>
+    <section className={className ? className : cls.news}>
       <Container>
-        <ValueBrackets forSectionTop={true}> Новости</ValueBrackets>
+        {brackets && (
+          <ValueBrackets forSectionTop={true}> Новости</ValueBrackets>
+        )}
         <div className={cls.top}>
           <Title title="НОВОСТИ И АКЦИИ" />
           <ValueBrackets>Сортировать</ValueBrackets>

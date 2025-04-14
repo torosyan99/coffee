@@ -19,12 +19,12 @@
     font-family: "LT Superior";
     font-size: 55px;
     color: var(--white-2);
-    font-weight: 400;
 }
 
 .title span {
     font-family: "Baskerville";
     font-style: italic;
+    font-size: 57px;
 }
 
 .wrapper {
@@ -92,6 +92,10 @@
         color: var(--primary-color);
         max-width: 490px;
         font-size: 40px;
+    }
+
+    .title span {
+        font-size: 42px;
     }
 
     .top {

@@ -19,4 +19,8 @@ export const navigationConfig = [
     value: "Новости",
     path: "/news",
   },
+  {
+    value: "Контакты",
+    path: "/contacts",
+  },
 ];

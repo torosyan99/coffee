@@ -8,14 +8,14 @@ import { FlexSection } from "@/widgets/FlexSection";
 
 const MainPage = () => {
   return (
-    <main className="main">
+    <>
       <Top />
       <About />
       <Catalog />
       <Prices />
       <News />
       <FlexSection />
-    </main>
+    </>
   );
 };
 

@@ -5,8 +5,8 @@ import Container from "@/shared/ui/Container/Container";
 import ValueBrackets from "@/shared/ui/ValueBrackets/ValueBrackets";
 import { classNames } from "@/shared/lib/classNames/classNames";
 
-import image_1 from "../assets/image_1.png";
-import image_2 from "../assets/image_2.png";
+import image_1 from "../assets/image-1.png";
+import image_2 from "../assets/image-2.png";
 
 import cls from "./About.module.css";
 

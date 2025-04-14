@@ -21,6 +21,15 @@ body {
   letter-spacing: -0.05em;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.main {
+  flex-grow: 1;
+}
 
 
 @media (max-width:768px) {
