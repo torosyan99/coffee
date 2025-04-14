@@ -2,6 +2,7 @@ import { MainPage } from "@/pages/MainPage";
 import { NewsPage } from "@/pages/NewsPage";
 import { AboutPage } from "@/pages/AboutPage";
 import { CatalogPage } from "@/pages/CatalogPage";
+import { ContactsPage } from "@/pages/ContactsPage";
 
 export const routerConfig = [
   {
@@ -17,7 +18,11 @@ export const routerConfig = [
     element: <AboutPage />,
   },
   {
-    path:'/catalog',
-    element:<CatalogPage />
-  }
+    path: "/catalog",
+    element: <CatalogPage />,
+  },
+  {
+    path: "/contacts",
+    element: <ContactsPage />,
+  },
 ];

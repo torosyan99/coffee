@@ -7,7 +7,7 @@ import cls from "./FlexSection.module.css";
 
 const FlexSection = ({ className, children }) => {
   return (
-    <section className={classNames(cls.section, [className], {})}>
+    <section className={className ? className : cls.section}>
       <Container className={cls.inner}>
         {children ? children : <Image />}
         <ContactForm />
