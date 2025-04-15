@@ -1,11 +1,13 @@
 .about {
-    padding: 11px 0 30px;
+    padding-bottom: 30px;
 }
 
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    border-top: 1px solid #c1c1c14d;
+    padding-top: 11px;
 }
 
 .descr {

@@ -1,0 +1,20 @@
+.item td {
+    text-align: center;
+    padding: 15px 0;
+    background-color: var(--gray);
+}
+
+
+.item td:first-child {
+    text-align: start;
+    padding: 15px 10px;
+    border-radius:  14px 0 0 14px;
+    
+}
+
+.item td:last-child {
+    text-align: end;
+    padding: 15px 10px;
+    border-radius: 0 14px 14px 0;
+
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import { Top } from "@/widgets/Top";
 import { About } from "@/widgets/About";
-import { Catalog } from "@/widgets/Catalog";
-import { Prices } from "@/widgets/Prices";
+import { Products } from "@/widgets/Products";
+import { ImageWithBadge } from "@/widgets/ImageWithBadge";
 import { News } from "@/widgets/News";
 import { FlexSection } from "@/widgets/FlexSection";
 
@@ -11,8 +11,8 @@ const MainPage = () => {
     <>
       <Top />
       <About />
-      <Catalog />
-      <Prices />
+      <Products />
+      <ImageWithBadge />
       <News />
       <FlexSection />
     </>

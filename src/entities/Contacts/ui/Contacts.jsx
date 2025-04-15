@@ -8,7 +8,7 @@ import cls from "./Contacts.module.css";
 const Contacts = () => {
   return (
     <div className={cls.contacts}>
-      <Title className={cls.title} mw={337} title="КОНТАКТНЫЕ" italic="ДАННЫЕ">
+      <Title  center={false} mw={337} title="КОНТАКТНЫЕ" italic="ДАННЫЕ">
         Связаться с нами легко! Если у вас есть вопросы по импорту или экспорту
         кофе, или вы хотите сделать заказ, просто напишите нам.
       </Title>

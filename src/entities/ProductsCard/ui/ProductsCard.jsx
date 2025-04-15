@@ -1,9 +1,9 @@
 import Box from "./Box";
 import {classNames} from '@/shared/lib/classNames/classNames'
 
-import cls from "./CatalogCard.module.css";
+import cls from "./ProductsCard.module.css";
 
-const CatalogCard = ({ location, num, title, className, children }) => {
+const ProductsCard = ({ location, num, title, className, children }) => {
   return (
     <li className={classNames(cls.card, [className])}>
       <Box location={location} num={num} />
@@ -13,4 +13,4 @@ const CatalogCard = ({ location, num, title, className, children }) => {
   );
 };
 
-export default CatalogCard;
+export default ProductsCard;

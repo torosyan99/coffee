@@ -1,7 +1,8 @@
 import React from "react";
-import { Prices } from "@/widgets/Prices";
 import { FlexSection } from "@/widgets/FlexSection";
 import { Contacts } from "@/entities/Contacts";
+import { ImageWithBadge } from "@/widgets/ImageWithBadge";
+
 
 import cls from "./contactsPage.module.css";
 
@@ -11,7 +12,7 @@ const ContactsPage = () => {
       <FlexSection className={cls.section}>
         <Contacts />
       </FlexSection>
-      <Prices />
+      <ImageWithBadge />
     </>
   );
 };

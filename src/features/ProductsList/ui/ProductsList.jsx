@@ -1,12 +1,12 @@
 import React from "react";
-import { CatalogCard } from "@/entities/CatalogCard";
+import { ProductsCard } from "@/entities/ProductsCard";
 
-import cls from "./CatalogList.module.css";
+import cls from "./ProductsList.module.css";
 
-const CatalogList = () => {
+const ProductsList = () => {
   return (
     <ul className={cls.list}>
-      <CatalogCard
+      <ProductsCard
         num="1"
         location={"Бразилия"}
         title="Vietnam Robusta Grade 1 clean screen"
@@ -14,16 +14,16 @@ const CatalogList = () => {
         Высококачественный кофе сорта робуста, выращенный во Вьетнаме. "Grade 1"
         означает, что это кофе высшего класса, который отличается отсутствием
         дефектов.
-      </CatalogCard>
-      <CatalogCard
+      </ProductsCard>
+      <ProductsCard
         num="2"
         location={"Вьетнам"}
         title="Brazil Arabic FC NY 2 screen"
       >
         Кофе арабика высшего качества, родом из Бразилии. Сорт FC (Fine Cup)
         обозначает, что зерна прошли строгий отбор и имеют отличное качество.
-      </CatalogCard>
-      <CatalogCard
+      </ProductsCard>
+      <ProductsCard
         num="3"
         location={"Страна-производитель"}
         title="Скоро в продаже"
@@ -31,9 +31,9 @@ const CatalogList = () => {
       >
         Наша цель — сделать каждый глоток кофе настоящим удовольствием,
         предоставляя нашим клиентам только лучший продукт.
-      </CatalogCard>
+      </ProductsCard>
     </ul>
   );
 };
 
-export default CatalogList;
+export default ProductsList;

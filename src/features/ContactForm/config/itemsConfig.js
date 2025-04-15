@@ -16,9 +16,9 @@ export const itemsConfig = [
     placeholder: "+7 (999) 999 99 99",
   },
   {
-    name: "time",
+    name: "preferred_time",
     label: "Удобное время для звонка",
-    mask: "HH:MM",
+    mask: "с HH:MM до HH:MM",
     placeholder: "Укажите время",
     blocks: {
       HH: {

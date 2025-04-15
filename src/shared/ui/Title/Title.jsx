@@ -3,9 +3,18 @@ import { classNames } from "@/shared/lib/classNames/classNames";
 
 import cls from "./Title.module.css";
 
-const Title = ({ className, title, italic, mw = 417, children }) => {
+const Title = ({
+  className,
+  title,
+  center = true,
+  italic,
+  mw = 417,
+  children,
+}) => {
   return (
-    <div className={classNames(cls.wrapper, [className])}>
+    <div
+      className={classNames(cls.wrapper, [className], { [cls.center]: center })}
+    >
       <h3 className={cls.title}>
         {title}
         {italic && <span className={cls.italic}>{" " + italic}</span>}

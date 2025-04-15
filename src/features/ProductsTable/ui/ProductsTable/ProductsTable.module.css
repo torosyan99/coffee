@@ -1,0 +1,37 @@
+.table {
+    margin-top: 48px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.top {
+    font-weight: 400;
+    padding-bottom: 36px;
+}
+
+.table thead {
+    position: relative;
+}
+
+.table thead::after {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid rgb(193, 193, 193, .30);
+    left: 0;
+}
+
+
+.top:first-child {
+    text-align: start;
+}
+
+.top {
+    text-align: center;
+}
+
+.top:last-child {
+    text-align: end;
+}

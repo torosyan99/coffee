@@ -1,11 +1,13 @@
 import React from "react";
-import { Prices } from "@/widgets/Prices";
+import { ImageWithBadge } from "@/widgets/ImageWithBadge";
 import { FlexSection } from "@/widgets/FlexSection";
+import { AllProducts } from "@/widgets/AllProducts";
 
 const CatalogPage = () => {
   return (
     <>
-      <Prices />
+      <AllProducts />
+      <ImageWithBadge />
       <FlexSection />
     </>
   );

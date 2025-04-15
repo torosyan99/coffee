@@ -8,9 +8,13 @@ import { itemsConfig } from "../config/itemsConfig";
 import cls from "./ContactForm.module.css";
 
 const MyForm = () => {
-  const { initialValues, SignupSchema } = useMyForm();
+  const { initialValues, schema, sendData } = useMyForm();
   return (
-    <Formik initialValues={initialValues} validationSchema={SignupSchema}>
+    <Formik
+      initialValues={initialValues}
+      validationSchema={schema}
+      onSubmit={sendData}
+    >
       {(options) => (
         <Form className={cls.form}>
           <div className={cls.items}>

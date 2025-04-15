@@ -24,10 +24,9 @@ export default defineConfig((env) => {
         usePolling: true,
       },
       proxy: {
-        "/api": {
-          target: "http://server:8000",
+        '/api': {
+          target: 'http://109.73.197.17:8080',
           changeOrigin: true,
-          // rewrite: (path) => path.replace(/^\/api/, ""),
         },
       },
      

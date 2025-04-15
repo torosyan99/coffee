@@ -1,5 +1,5 @@
 import React from "react";
-import { Catalog } from "@/widgets/Catalog";
+import { Products } from "@/widgets/Products";
 import { FlexSection } from "@/widgets/FlexSection";
 import { AboutPageTop } from "@/widgets/AboutPageTop";
 import { AboutTwo } from "@/widgets/AboutTwo";
@@ -9,7 +9,7 @@ const AboutPage = () => {
     <>
       <AboutPageTop />
       <AboutTwo />
-      <Catalog />
+      <Products />
       <FlexSection />
     </>
   );

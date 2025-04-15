@@ -3,6 +3,7 @@ import { NewsPage } from "@/pages/NewsPage";
 import { AboutPage } from "@/pages/AboutPage";
 import { CatalogPage } from "@/pages/CatalogPage";
 import { ContactsPage } from "@/pages/ContactsPage";
+import { PricesPage } from "@/pages/PricesPage";
 
 export const routerConfig = [
   {
@@ -25,4 +26,8 @@ export const routerConfig = [
     path: "/contacts",
     element: <ContactsPage />,
   },
+  {
+    path:'/prices',
+    element:<PricesPage />
+  }
 ];

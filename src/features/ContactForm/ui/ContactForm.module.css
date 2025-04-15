@@ -48,6 +48,10 @@ textarea.input {
     height: 65px;
 }
 
+.input:focus {
+    outline: 0;
+}
+
 .input.error {
     border-bottom: 1px solid #c91616;
     color: #c91616;

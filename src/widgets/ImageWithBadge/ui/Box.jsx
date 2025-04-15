@@ -1,12 +1,12 @@
 import React from "react";
 import ValueBrackets from "@/shared/ui/ValueBrackets/ValueBrackets";
 import ButtonArrow from "@/shared/ui/ButtonArrow/ButtonArrow";
-
-import cls from "./Prices.module.css";
-
+import Sprite from "@/shared/ui/Sprite/Sprite";
 import coffee from "../assets/coffee.png";
 import { Link } from "react-router-dom";
-import Sprite from "../../../shared/ui/Sprite/Sprite";
+
+import cls from "./ImageWithBadge.module.css";
+
 
 const Box = () => {
   return (

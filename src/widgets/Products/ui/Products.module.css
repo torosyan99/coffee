@@ -1,6 +1,11 @@
-.catalog {
-    padding: 11px 0 61px;
+.products {
+    padding-bottom: 61px;
+}
+
+
+.inner {
     border-top: 1px solid var(--gray);
+    padding-top: 11px;
 }
 
 .top {
@@ -15,7 +20,7 @@
 
 
 @media (max-width:768px) {
-    .catalog {
+    .products {
         padding-bottom: 30px;
     }
 
