@@ -1,4 +1,4 @@
-.prices {
+.section {
     padding: 50px 0;
     background: url(../assets/background.png) no-repeat center / cover;
 }
@@ -47,7 +47,7 @@
 
 
 @media (max-width:768px) {
-    .prices {
+    .section {
         background: url(../assets/background-2.png) no-repeat center / cover;
         padding: 71px 0 29px;
     }
